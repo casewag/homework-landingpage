@@ -49,9 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -68,17 +66,121 @@ body {
 }
 
 header {
-
+  background: url(../images/header_bg.jpg) no-repeat center center rgb(134,141,157);
+  background-size: cover;
+  height: 600px;  
+  padding: 40px;
+  text-align: center;
 }
 
 footer {
-
+  height: 200px;
+  background-color: black;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 50px;
 }
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  padding-bottom: 80px;
+}
 
+.getitbutton {
+  background-color: #f9e42e;
+  color: #033048;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.trybutton  {
+  background-color: #033048;
+  color: white;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cta {
+  background: yellow;
+  height: 70px;
+  text-align: center;
+  padding: 26px 40px;
+} 
+h2  {
+  color: #033048;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.benefits {
+  background-color: rgba(0,0,0,.09);
+  color: #606161;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 
-
+li  {
+  margin-left: 25px;
+  padding: 5px 0px;
+}
+.testimonial  {
+  background: url(../images/testimonial_bg.jpg) no-repeat center bottom;
+  background-size: cover;
+  height: 210px;
+}
+blockquote {
+  padding-top: 40px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  max-width: 300px;
+}
+.footerlogo {
+  font-size: 24px;
+  font-weight: 800;
+  color: yellow;
+  text-align: center;
+  padding-top: 30px;
+}
+nav {
+  padding: 30px;
+  width: 100%;
+}
+.left {
+  float: left;
+  margin-left: 45%;
+}
+.right {
+  float: right;
+  margin-right: 45%;
+}
+#copyright  {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 9px;
+  color: white;
+}
