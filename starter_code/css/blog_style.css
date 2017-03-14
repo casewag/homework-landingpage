@@ -1,0 +1,239 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+
+#container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #f0efef;
+}
+/********
+  HEADER
+*********/
+a.highlight:hover {
+    color: #32CD32;
+} 
+header {
+  background-color: #033048;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 800;
+  padding: 25px 0px 25px 30px;
+}
+h2  {
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 5px;
+}
+li  {
+  display: inline-block;
+}
+.logotop  {
+  color: white;
+  float: left;
+}
+.topnav {
+  display: inline-block;
+  float: right;
+  padding: 25px 30px 25px 0px;
+  margin-right: 10px;
+}
+.top-nav-links  {
+  display: inline-block;
+  color: #f9e42e;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0 15px;
+}
+/********
+  MAIN
+*********/
+main  {
+  margin-top: 30px;
+}
+.blog-post {
+  display: block;
+  width: 60%;
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.post-titles  {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 10px;
+} 
+article {
+  display: block;
+}
+.blog-post-text {
+  color: #606161;
+  font-size: 24px;
+  font-weight: 300;
+}
+.blog-images  {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.read-more {
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.align-right  {
+  display: block;
+  text-align: right;
+}
+img {
+}
+aside {
+  color: #033048;
+  width: 20%;
+  float: right;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.sidebar-text {
+  font-size: 24px;
+  font-weight: 300;
+}
+.categories {
+  padding-bottom: 50px;
+}
+.sidebar-learn-more
+{
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.ad-unit  {
+  margin-top: 40px;
+  width: 95%;
+}
+p::first-letter {
+  font-size: 300%;
+  font-weight: 600;
+  float: left;
+  margin: -05px 0.1em 0 0;
+}
+.cta  {
+  background: #f9e42e;
+  height: 100px;
+  text-align: center;
+  padding: 38px;
+  clear: both;
+}
+.trybutton  {
+  background-color: #033048;
+  color: white;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.trybutton:hover {
+    background-color: blue;
+    ;
+}
+/********
+ FOOTER
+*********/
+footer {
+clear: both;
+background-color: black;
+}
+.logobottom  {
+  color: #f9e42e;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+h5  {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  clear: both;
+}
+.left {
+  float: left;
+  margin-left: 45%;
+}
+.right {
+  float: right;
+  margin-right: 45%;
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
